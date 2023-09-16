@@ -1,0 +1,38 @@
+.appearOne {
+    animation: appear;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-delay: 2.3s;
+    animation-fill-mode: both;
+    transition: .5s;
+}
+
+.appearTwo {
+    animation: appear;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-delay: 2.4s;
+    animation-fill-mode: both;
+    transition: .5s;
+}
+
+.appearThree {
+    animation: appear;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-delay: 2.5s;
+    animation-fill-mode: both;
+    transition: .5s;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        /* width: 40%; */
+    }
+
+    to {
+        opacity: 1;
+        /* width: 50%; */
+    }
+}
