@@ -1,6 +1,5 @@
 import React from 'react'
 import './left.css'
-import {BsDownload} from 'react-icons/bs'
 import {FaLinkedinIn, FaInstagram, FaTwitter, FaFacebookF, FaGithub} from 'react-icons/fa'
 
 const Left = () => {
