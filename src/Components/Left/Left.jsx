@@ -15,19 +15,29 @@ const Left = () => {
         </div>
             <div className='textThree flex list-none'>
                 <li className='mx-auto my-[8%] duration-300 hover:scale-110 text-white cursor-pointer'>
-                    <FaLinkedinIn size={40} className='border border-white hover:border hover:bg-purple-600 hover:text-white hover:border-purple-600 rounded-full p-2 animate-bounce'/>
+                    <a href='https://www.linkedin.com/in/victory-odumeh-421761223/'>
+                        <FaLinkedinIn size={40} className='border border-white hover:border hover:bg-purple-600 hover:text-white hover:border-purple-600 rounded-full p-2 animate-bounce'/>
+                    </a>
                 </li>
                 <li className='mx-auto my-[8%] duration-300 hover:scale-110 text-white hover:text-purple-600 cursor-pointer'>
-                    <FaInstagram size={40} className='border border-white hover:border hover:bg-purple-600 hover:text-white hover:border-purple-600 rounded-full p-2 animate-bounce'/>
+                    <a href='https://www.instagram.com/_kachi.dev/' target='_blank'>
+                        <FaInstagram size={40} className='border border-white hover:border hover:bg-purple-600 hover:text-white hover:border-purple-600 rounded-full p-2 animate-bounce'/>
+                    </a>
                 </li>
                 <li className='mx-auto my-[8%] duration-300 hover:scale-110 text-white hover:text-purple-600 cursor-pointer'>
-                    <FaTwitter size={40} className='border border-white hover:border hover:bg-purple-600 hover:text-white hover:border-purple-600 rounded-full p-2 animate-bounce'/>
+                    <a href='https://twitter.com/phantomcancode' target='_blank'>
+                        <FaTwitter size={40} className='border border-white hover:border hover:bg-purple-600 hover:text-white hover:border-purple-600 rounded-full p-2 animate-bounce'/>
+                    </a>
                 </li>
                 <li className='mx-auto my-[8%] duration-300 hover:scale-110 text-white hover:text-purple-600 cursor-pointer'>
-                    <FaFacebookF size={40} className='border border-white hover:border hover:bg-purple-600 hover:text-white hover:border-purple-600 rounded-full p-2 animate-bounce'/>
+                    <a href='https://web.facebook.com/victory.odumeh' target='_blank'>
+                        <FaFacebookF size={40} className='border border-white hover:border hover:bg-purple-600 hover:text-white hover:border-purple-600 rounded-full p-2 animate-bounce'/>
+                    </a>
                 </li>
                 <li className='mx-auto my-[8%] duration-300 hover:scale-110 text-white hover:text-purple-600 cursor-pointer'>
-                    <FaGithub size={40} className='border border-white hover:border hover:bg-purple-600 hover:text-white hover:border-purple-600 rounded-full p-2 animate-bounce'/>
+                    <a href='https://github.com/pHanToMcaNCoDE' target='_blank'>
+                        <FaGithub size={40} className='border border-white hover:border hover:bg-purple-600 hover:text-white hover:border-purple-600 rounded-full p-2 animate-bounce'/>
+                    </a>
                 </li>
             </div>
     </div>
