@@ -3,6 +3,8 @@ import {FiPhoneCall} from 'react-icons/fi'
 import {TfiEmail} from 'react-icons/tfi'
 import {PiGhost} from 'react-icons/pi'
 import './navbar.css'
+import {IoIosArrowBack} from 'react-icons/io'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -15,10 +17,16 @@ const Navbar = () => {
                 <TfiEmail size={20} className='my-1 lg:mx-2 text-purple-600'/>
                 victory.odumeh@gmail.com
             </li>
+            <Link to='/home' className='appearTwo mx-2 lg:mx-4 flex flex-col lg:flex-row items-center tracking-wider text-white text-[.6rem] lg:text-[.8rem] font-mono'>
+                <IoIosArrowBack size={20} className='my-1 lg:mx-2 text-purple-600'/>
+                Back
+            </Link>
+            
+            
       </div>
       <div>
         <abbr className='appearThree hidden md:flex lg:flex animate-bounce text-purple-600 text-[2rem]' title='Some Random Logo'>
-            <span class="cursor-pointer animate-ping absolute inline-flex h-8 w-8 rounded-full bg-purple-500 opacity-75"></span>
+            <Link to='/home'><span class="cursor-pointer animate-ping absolute inline-flex h-8 w-8 rounded-full bg-purple-500 opacity-75"></span></Link>
             <a clasName='cursor-pointer relative' href=''><PiGhost/></a>
         </abbr>
       </div>

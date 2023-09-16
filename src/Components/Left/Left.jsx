@@ -6,7 +6,7 @@ const Left = () => {
   return (
     <div className='p-4 h-[50%] w-[100%] md:w-[100%] lg:w-[50%] lg:h-[100%]'>
         <div className='mt-[30%] flex flex-col items-center'>
-            <span className='text-[1rem] md:text-[1.4rem] lg:text-[2.3rem] text-white p-3 font-mono tracking-widest'>
+            <span className='textOne text-[1rem] md:text-[1.4rem] lg:text-[2.3rem] text-white p-3 font-mono tracking-widest'>
                 Victory Odumeh .K.
             </span>
             <p className='duration-300 textTwo text-sans text-zinc-600 text-[.8rem] pl-[10%] md:text-[1.2rem] lg:text-[1.2rem] tracking-widest'>Solution-driven 

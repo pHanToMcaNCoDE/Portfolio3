@@ -1,0 +1,62 @@
+.one {
+    animation: appear;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    transition: .7s;
+}
+.two {
+    animation: appear;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-delay: 1.4s;
+    animation-fill-mode: both;
+    transition: .7s;
+}
+.three {
+    animation: appear;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-delay: 1.8s;
+    animation-fill-mode: both;
+    transition: .7s;
+}
+.four {
+    animation: appear;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+    transition: .7s;
+}
+.five {
+    animation: appear;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-delay: 2.4s;
+    animation-fill-mode: both;
+    transition: .7s;
+}
+.six {
+    animation: appear;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-delay: 2.8s;
+    animation-fill-mode: both;
+    transition: .7s;
+}
+
+
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        /* top: 8%; */
+    }
+
+    to {
+        opacity: 1;
+        /* top: 10%; */
+    }
+}
