@@ -1,50 +1,48 @@
 export const projects = [
+  
     {
         id: 1,
-        name: 'LinkedIn Clone',
-        desc: '',
+        name: 'Buy-It',
+        desc: "Discover an immersive eCommerce emporium meticulously crafted with cutting-edge technologies. Our web platform, engineered with ReactJS and adorned with the finesse of TailwindCSS.",
         tool: 'ReactJS',
         color: '#03befc',
-
+        github: 'https://github.com/pHanToMcaNCoDE/buy-it',
+        view: 'https://buy-it-1-0.vercel.app/',
     },
     {
         id: 2,
-        name: 'Buy-It',
-        desc: '',
+        name: 'Movie-Box',
+        desc: 'A movie website that displays the latest block buster movies currently airing on cinemas, as well as searching for the movie of your choice. TMDB API was consumed.',
         tool: 'ReactJS',
         color: '#03befc',
-        
+        github: 'https://github.com/pHanToMcaNCoDE/zuri-movie-box-1.0',
+        view: 'https://zuri-movie-box-1-0.vercel.app',
     },
     {
         id: 3,
-        name: 'Movie-Box',
-        desc: '',
-        tool: 'ReactJS',
-        color: '#03befc',
-        
+        name: "Africa's Big Bites",
+        desc: "Africa's Big Bites is a restaurant website that allows users to make reservations online, order online, and subscribe to the restaurants' newsletter so as to get updates on the latest additions to their menus.",
+        tool: 'PHP',
+        color: '#b103fc',
+        github: 'https://github.com/pHanToMcaNCoDE/Africas-Big-Bites',
+        view: 'https://africas-big-bites.000webhostapp.com/',
     },
     {
         id: 4,
-        name: "Africa's Big Bites",
-        desc: '',
+        name: 'eCom Shopping Portal',
+        desc: 'This is an online shopping portal for an e-commerce website. It gives an admin, who is the primary actor of the system, the leverage to add & remove products, track orders, track the customers that have an account on the e-commerce website.',
         tool: 'PHP',
         color: '#b103fc',
-        
+        github: 'https://github.com/pHanToMcaNCoDE/Online-Shopping-Portal',
+        view: '#',
     },
     {
         id: 5,
-        name: 'eCom Shopping Portal',
-        desc: '',
-        tool: 'PHP',
-        color: '#b103fc',
-        
-    },
-    {
-        id: 6,
         name: 'PsychoJunky',
-        desc: '',
+        desc: 'Discover PsychoJunky – Your Snack Paradise! Enjoy your favorite snacks at budget-friendly prices. Our site is easy to use on any device. Dive into snacking with PsychoJunky! Available for various screen size & devices.',
         tool: 'ReactJS',
         color: '#03befc',
-        
+        github: 'https://github.com/pHanToMcaNCoDE/psycho-Junky',
+        view: '#',
     },
 ]
