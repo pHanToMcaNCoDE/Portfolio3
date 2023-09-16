@@ -1,50 +1,50 @@
 export const projects = [
     {
         id: 1,
-        name: '',
+        name: 'LinkedIn Clone',
         desc: '',
-        tool: '',
-        color: '',
+        tool: 'ReactJS',
+        color: '#03befc',
 
     },
     {
-        id: 1,
-        name: '',
+        id: 2,
+        name: 'Buy-It',
         desc: '',
-        tool: '',
-        color: '',
+        tool: 'ReactJS',
+        color: '#03befc',
         
     },
     {
-        id: 1,
-        name: '',
+        id: 3,
+        name: 'Movie-Box',
         desc: '',
-        tool: '',
-        color: '',
+        tool: 'ReactJS',
+        color: '#03befc',
         
     },
     {
-        id: 1,
-        name: '',
+        id: 4,
+        name: "Africa's Big Bites",
         desc: '',
-        tool: '',
-        color: '',
+        tool: 'PHP',
+        color: '#b103fc',
         
     },
     {
-        id: 1,
-        name: '',
+        id: 5,
+        name: 'eCom Shopping Portal',
         desc: '',
-        tool: '',
-        color: '',
+        tool: 'PHP',
+        color: '#b103fc',
         
     },
     {
         id: 6,
-        name: '',
+        name: 'PsychoJunky',
         desc: '',
-        tool: '',
-        color: '',
+        tool: 'ReactJS',
+        color: '#03befc',
         
     },
 ]
