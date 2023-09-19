@@ -7,7 +7,7 @@ import Right from '../Right/Right'
 
 const Home = () => {
   return (
-    <div className="flex flex-col h-[135vh] md:h-[103vh] lg:h-[100vh] max-w-[1500px] bg-neutral-950">
+    <div className="flex flex-col h-[135vh] md:h-[103vh] lg:h-[100vh] bg-neutral-950">
       <Navbar/>
       <div className="mx-auto h-[100vh] md:h-[90vh] lg:h-[85vh] flex flex-col items-center lg:flex-row lg:justify-center lg:items-center">
         <Left/>
