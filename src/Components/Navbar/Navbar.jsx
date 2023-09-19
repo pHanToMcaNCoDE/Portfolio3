@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <div className='flex justify-between items-center max-w-[1250px] w-full mx-auto p-4'>
+    <div className='flex justify-between items-center max-w-[1500px] w-full mx-auto p-4'>
       <div className='flex items-center'>
             <li className='appearOne mx-2 lg:mx-4 flex flex-col lg:flex-row tracking-wider items-center text-white text-[.6rem] lg:text-[.8rem] font-mono'>
                 <FiPhoneCall size={20} className='my-1 lg:mx-2 text-purple-600'/>+(234)8092030535
