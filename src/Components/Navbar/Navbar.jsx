@@ -21,8 +21,6 @@ const Navbar = () => {
                 <IoIosArrowBack size={20} className='my-1 lg:mx-2 text-purple-600'/>
                 Back
             </Link>
-            
-            
       </div>
       <div>
         <abbr className='appearThree hidden md:flex lg:flex animate-bounce text-purple-600 text-[2rem]' title='Some Random Logo'>

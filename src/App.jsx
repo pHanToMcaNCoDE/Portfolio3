@@ -7,6 +7,7 @@ import Portfolio from './Components/Portfolio/Portfolio'
 const App = () => {
   return (
     <div>
+      {/* <Skeleton/> */}
       <BrowserRouter>
         <Routes>
           <Route path='/'>

@@ -3,9 +3,10 @@ import {RxExternalLink} from 'react-icons/rx'
 import { Link } from 'react-router-dom'
 import './right.css'
 import {BsDownload} from 'react-icons/bs'
-// import { Link } from 'react-router-dom'
 
 const Right = () => {
+
+
   return (
     <div className='w-[100%] md:w-[100%] lg:w-[50%]'>
 
