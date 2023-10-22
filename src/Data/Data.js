@@ -30,7 +30,7 @@ export const projects = [
     {
         id: 4,
         name: 'Zuri Portfolio',
-        desc: '',
+        desc: 'Zuri Portfolio helps to explore a world of talents, create your personalized portfolio, and sell your digital products in your very own shop. Your dreams, your creations, your success – all in one place. Start your journey today.',
         tool: 'ReactJS',
         color: '#03befc',
         github: 'https://github.com/pHanToMcaNCoDE/Name-zuriportfolio-frontend',
