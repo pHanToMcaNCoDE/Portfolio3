@@ -2,7 +2,7 @@ import React from 'react'
 
 const Skeleton = () => {
   return (
-    <div className='w-full md:h-[103vh] lg:h-[108vh] bg-neutral-950 text-white'>
+    <section className='w-full md:h-[103vh] lg:h-[108vh] bg-neutral-950 text-white'>
 
         <div className='max-w-[1300px] p-4 pt-[12%] mx-auto'>
             <div className='mx-auto h-10 w-[5rem] col-span-1 bg-neutral-600 rounded'></div>
@@ -95,7 +95,7 @@ const Skeleton = () => {
                 </div>
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 

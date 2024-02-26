@@ -3,15 +3,13 @@ import './expd.css'
 
 const ExpDisplay = () => {
   return (
-    <div className='max-w-[1200px] mx-auto my-[5%] px-4'>
+    <main className='max-w-[1200px] mx-auto my-[5%] px-4'>
 
-      <div className='flex my-10 flex-col md:flex-col lg:flex-row justify-between items-center'>
+      <section className='flex my-10 flex-col lg:flex-row justify-between items-center'>
 
-        <div className='w-[100%] md:w-[100%] lg:w-[40%]'>
-            <h1 className='one text-[2.2rem] md:text-[2.4rem] lg:text-[4rem] font-mono text-purple-600 text-left hidden md:hidden lg:flex'>01</h1>
-        </div>
+        <h1 className='one text-[2.2rem] md:text-[2.4rem] lg:text-[4rem] font-mono text-purple-600 text-center lg:text-left w-full lg:w-[40%]'>01</h1>
 
-        <div className='w-[100%] md:w-[100%] lg:w-[60%]'>
+        <div className='w-full md:w-[90%] lg:w-[60%]'>
             <div className='two bg-zinc-900 p-4 rounded-lg w-full cursor-pointer duration-200 hover:scale-105'>
                 <div className='flex flex-col md:flex-row lg:flex-row text-center md:text-justify lg:text-justify justify-between items-center'>
                     <h1 className='text-[1.2rem] font-mono text-purple-500'>Zuri Team, Inc.</h1>
@@ -25,12 +23,13 @@ const ExpDisplay = () => {
             </div>
         </div>
 
-      </div>
-
-      <div className='flex my-10 flex-col md:flex-col lg:flex-row justify-between items-center'>
+      </section>
 
 
-        <div className='w-[100%] md:w-[100%] lg:w-[60%]'>
+
+      <section className='flex my-10 flex-col-reverse lg:flex-row justify-between items-center'>
+
+        <div className='w-full md:w-[90%] lg:w-[60%]'>
             <div className='three bg-zinc-900 p-4 rounded-lg w-full cursor-pointer duration-300 hover:scale-105'>
                 <div className='flex flex-col md:flex-row lg:flex-row text-center md:text-justify lg:text-justify justify-between items-center'>
                     <h1 className='text-[1.2rem] font-mono text-purple-500'>Side Hustle</h1>
@@ -45,22 +44,15 @@ const ExpDisplay = () => {
         </div>
 
 
-        <div className='text-right w-[100%] md:w-[100%] lg:w-[40%]'>
-            <h1 className='four text-[2.2rem] md:text-[2.4rem] lg:text-[4rem] font-mono text-purple-600 hidden md:hidden lg:flex'>02</h1>
-        </div>
+        <h1 className='four text-[2.2rem] md:text-[2.4rem] lg:text-[4rem] font-mono text-purple-600 w-full lg:w-[40%] text-center lg:text-right'>02</h1>
 
-      </div>
+      </section>
 
 
-      <div className='flex my-10 flex-col md:flex-col lg:flex-row justify-between items-center'>
+      <section className='flex my-10 flex-col lg:flex-row justify-between items-center'>
+        <h1 className='five text-[2.2rem] md:text-[2.4rem] lg:text-[4rem] font-mono text-purple-600 text-center lg:text-left w-full lg:w-[40%]'>03</h1>
 
-
-
-        <div className='w-[100%] md:w-[100%] lg:w-[40%]'>
-            <h1 className='five text-[2.2rem] md:text-[2.4rem] lg:text-[4rem] font-mono text-purple-600 text-left hidden md:hidden lg:flex'>03</h1>
-        </div>
-
-        <div className='w-[100%] md:w-[100%] lg:w-[60%]'>
+        <div className='w-full md:w-[90%] lg:w-[60%]'>
             <div className='six bg-zinc-900 p-4 rounded-lg w-full cursor-pointer duration-200 hover:scale-105'>
                 <div className='flex flex-col md:flex-row lg:flex-row text-center md:text-justify lg:text-justify justify-between items-center'>
                     <h1 className='text-[1.2rem] font-mono text-purple-500'>Aptech Computer Education</h1>
@@ -73,11 +65,9 @@ const ExpDisplay = () => {
                 </ul>
             </div>
         </div>
+      </section>
 
-
-
-      </div>
-    </div>
+    </main>
   )
 }
 

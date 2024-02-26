@@ -6,7 +6,7 @@ import './exp.css'
 
 const Experiences = () => {
   return (
-    <div className='bg-neutral-950 w-full lg:h-[140vh] text-white'>
+    <section className='bg-neutral-950 w-full  text-white'>
       <Navbar/>
       <div className='max-w-[1200px] mx-auto p-2'>
           <h1 className='font-mono text-center text-[2rem] lg:text-[3rem] text-purple-500 tracking-widest header'>Experiences</h1>
@@ -21,7 +21,7 @@ const Experiences = () => {
 
       </div>
 
-    </div>
+    </section>
   )
 }
 

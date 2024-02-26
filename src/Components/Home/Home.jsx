@@ -7,14 +7,16 @@ import Right from '../Right/Right'
 
 const Home = () => {
   return (
-    <div className="flex flex-col h-[135vh] md:h-[103vh] lg:h-[100vh] bg-neutral-950">
+    <main className="min-h-screen bg-neutral-950">
       <Navbar/>
-      <div className="mx-auto h-[100vh] md:h-[90vh] lg:h-[85vh] flex flex-col items-center lg:flex-row lg:justify-center lg:items-center">
-        <Left/>
-        <Right/>
-      </div>
-      {/* <Footer/> */}
-    </div>
+      <section className='flex flex-col max-w-[1300px] mx-auto'>
+        <div className="mx-auto flex flex-col lg:flex-row justify-center items-center mt-[3%]">
+          <Left/>
+          <Right/>
+        </div>
+        <Footer/>
+      </section>
+    </main>
   )
 }
 
