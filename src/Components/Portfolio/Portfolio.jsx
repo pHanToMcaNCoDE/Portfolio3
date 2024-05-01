@@ -6,7 +6,6 @@ import { projects } from '../../Data/Data'
 import './port.css'
 import axios from 'axios'
 // import { PiDivideBold } from 'react-icons/pi'
-import Skeleton from '../Skeleton/Skeleton'
 import Box from '../Box/Box'
 
 const Portfolio = () => {
@@ -32,9 +31,7 @@ const Portfolio = () => {
         {
             loading ? 
             (
-              <div>
-                <Skeleton/>
-              </div>
+              ''
             ):(
               <section className='bg-neutral-950'>
                 <div className='text-white max-w-[1200px] mx-auto'>
